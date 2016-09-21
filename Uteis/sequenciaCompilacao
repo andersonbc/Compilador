@@ -1,0 +1,4 @@
+Sequência para a compilação:
+lex lex.c
+gcc -o linguagem lex.yy.c -lfl
+./linguagem
